@@ -18,7 +18,7 @@ function FoodSearch() {
             setAlert('Enter food item ', 'error')
         }else{
             searchRecipes(text)
-            setText('')
+            
         }
     }
   return (
